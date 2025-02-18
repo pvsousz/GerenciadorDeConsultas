@@ -62,11 +62,12 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
 
-↘️ Substitua pelo seu endereço, username e password do seu banco.
+↘️ Substitua pelo seu endereço, username e password do seu banco. spring.jpa.show-sql=false caso não queira ver a interação do banco no terminal
 ```bash
     spring.datasource.url=
     spring.datasource.username=
     spring.datasource.password=
+    spring.jpa.show-sql=false
 ``` 
 
 ✅  Certifique-se de usar os acessos corretos
